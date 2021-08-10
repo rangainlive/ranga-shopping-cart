@@ -2,8 +2,12 @@ import React from "react";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Ranga Shopping Cart</h1>
+    <div className="grid-container">
+      <header>
+        <a href="/">Ranga Shopping Cart</a>
+      </header>
+      <main>Product List</main>
+      <footer>2020-21 @ All rights are reserved.</footer>
     </div>
   );
 }
