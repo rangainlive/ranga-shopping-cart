@@ -70,11 +70,28 @@ footer {
     margin: 0;
     list-style-type: none;
 }
+.product-card {
+    background-color: white;
+    margin: 0.2rem;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    height: 50rem;
+    width: 40rem;
+    border: 2px solid rgb(55, 190, 179);
+}
+
+.product p {
+    text-align: center;
+    background-color: rgb(55, 190, 179);
+    padding: 1rem;
+    border-radius: 1rem;
+}
 .products li {
     flex: 0 1 29rem;
-    height: 47rem;
-    width: 37rem;
+    /* height: 50rem; */
+    /* width: 35rem; */
     padding: 1rem;
+    margin-top: 0.5rem;
 }
 .product {
     display: flex;
@@ -83,8 +100,8 @@ footer {
     height: 100%;
 }
 .product img {
-    max-width: 37rem;
-    max-height: 37rem;
+    max-width: 39rem;
+    max-height: 35rem;
 }
 .product-price {
     display: flex;
@@ -113,4 +130,21 @@ footer {
 .button:hover {
     border: 0.1rem #808080 solid;
 
+}
+
+/* Filter Page */
+.filter {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    margin: 1rem;
+    border-bottom: 0.1rem;
+}
+.filter select {
+    border-radius: 0.5rem;
+    padding: 0.2rem;
+    outline-style: none;
+}
+.filter div {
+    flex: 1;
 }
