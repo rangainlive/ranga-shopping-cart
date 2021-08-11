@@ -74,4 +74,32 @@
         21. Task Management Spreadsheet set it done
     10. Create Products Backend
         1. Install nodemon globally
-
+        2. Add sever.js
+        3. Install express body-parser mongoose shortid
+        4. Install MongoDB
+        5. app = express()
+        6. app.use(bodyParser.json())
+        7. mongoose.connect()
+        8. create Product model
+        9. app.post("/api.products")
+        10. Postman send post request
+        11. route.get("/api/products")
+        12. route.delete("/api/products/:id")
+    11. Add Redux
+        1. What is Redux (diagram)
+        2. update task on spreadsheet
+        3. create branch add-redux-products
+        4. npm install redux react-redux redux-thunk
+        5. import redux
+        6. set initial state
+        7. create types
+        8. types.js
+        9. define FETCH_PRODUCTS
+        10. actions/productActions.js
+        11. declare fetchProducts
+        12. create reducers
+        13. reducers/productReducers.js
+        14. define case FETCH_PRODUCTS
+        15. create store
+        16. store.js
+        17. 
