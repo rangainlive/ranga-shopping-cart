@@ -123,6 +123,7 @@ footer {
     background-color: #f0f0f0;
     cursor: pointer;
     border-radius: 0.5rem;
+    outline-style: none;
 }
 .button.primary {
     background-color: #f0c040;
@@ -138,7 +139,7 @@ footer {
     justify-content: space-between;
     padding: 1rem;
     margin: 1rem;
-    border-bottom: 0.1rem;
+    border-bottom: 0.1rem #203040 solid; 
 }
 .filter select {
     border-radius: 0.5rem;
@@ -147,4 +148,77 @@ footer {
 }
 .filter div {
     flex: 1;
+}
+
+/* Cart Page style */
+.cart {
+    padding: 1rem;
+    margin: 1rem;
+}
+.cart-header {
+    border-bottom: 0.1rem #203040 solid;
+}
+.cart-items {
+    padding: 0;
+    width: 100%;
+    list-style-type: none;
+}
+.cart-items img {
+    width: 5rem;
+}
+.cart-items li {
+    display: flex;
+}
+.cart-items li div {
+    padding: 0.5rem;
+}
+.cart-items li div:last-child {
+    flex: 1;
+}
+.right {
+    text-align: right;
+}
+.card-checkout {
+    background-color: white;
+    margin: 0.2rem;
+    border-radius: 0.5rem;
+    
+    width: 35rem;
+    border: 2px solid rgb(55, 190, 62);
+}
+.selection-msg {
+    font-size: 1rem;
+}
+.card-header {
+    background-color: rgb(201, 238, 232);
+    display: flex;
+    justify-content: space-between;
+    padding: 1.2rem;
+    /* width: 34rem; */
+    margin: 0;
+}
+.btn-checkout {
+    text-align: center;
+    margin: 0.5rem;
+}
+.btn-checkout button {
+    width: 30rem;
+}
+.cart-symbol {
+    font-size: 2rem;
+    line-height: 3rem;
+    color: #203040;
+    width: 3rem;
+    height: 3rem;
+}
+.item-count{
+    font-size: 3rem;
+    line-height: 1rem;
+    color: red;
+    background-color: wheat;
+}
+.total {
+    font-size: 2rem;
+    color: dodgerblue;
+    font-weight: 500;
 }
